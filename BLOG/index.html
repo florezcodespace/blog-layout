@@ -1,92 +1,52 @@
 <!DOCTYPE html>
-<html meta lang="es">
-
+<html lang="es">
 <head>
-    <!-- definición de carateres especiales-->
-    <link rel="stylesheet" href="pokedex.html">
-    <meta charset="utf-8">
-    <!--los meta, definen información del sitio-->
-    <meta name="description"
-        content="Bienvenido a la Pokémonium, tu enciclopedia Pokémon definitiva y guía completa con toda la información de la Pokédex Nacional: desde Charizard hasta Miraidon, sus tipos, evoluciones, debilidades y la estrategia perfecta para cada combate. Encuentra datos detallados sobre movimientos y habilidades para dominar en Pokémon Escarlata y Purpura, Leyendas: Arceus y todos los juegos de la saga, además de consejos para criar Pokémon, obtener Pokémon legendarios como Mewtwo y Arceus, y aprovechar mecánicas como las Megaevoluciones y el Dinamax para convertirte en el mejor entrenador Pokémon.">
-    
-    <link rel="stylesheet" href="style.css">
-    
-    
-        <meta name "author" content="Andres Florez">
-    <meta name "keywords" content="Pokemon, Pokedex, Juegos, Manga, Anime, TCG, Competitivo, Tabla de Tipos.">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--este título es el que aparecerá en el nevegador-->
-    <title>Pokémonium</title>
+    <title>Wiki Pokémon</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<!--área visible para el usuario-->
-
 <body>
-    <header class="miheader">
-        <H1>La enciclopedia Pokémon en español</H1>
-        
-    <nav class="nav1">
-            <li><a href="pokedex.html">Pokedex</a></li>
-            <li><a href="anime.html">Anime</a></li>  
-            <li><a href="jcc.html">JCC</a></li>
-            <li><a href="videogames.html">Video Juegos</a></li>
-            <li><a href="guide.html">Guias y Manuales</a></li>
-    </nav>
-        
-    
-
+    <!-- Encabezado -->
+    <header>
+        <h1>Wiki Pokémon</h1>
+        <h2>Todo sobre el mundo Pokémon</h2>
     </header>
 
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Pokédex</a></li>
+            <li><a href="#">Regiones</a></li>
+            <li><a href="#">Entrenadores</a></li>
+            <li><a href="#">Batallas</a></li>
+        </ul>
+    </nav>
 
-    <section>
-        <!--sirve para repetir varias veces el contenido de algun elemento -->
-        <article>
+    <!-- Contenedor principal -->
+    <main class="container">
+        <!-- Sección de artículos -->
+        <section class="content">
+            <article>
+                <h2>Título del primer artículo</h2>
+                <h3>Subtítulo relacionado con Pokémon</h3>
+                <p class="fecha">Publicado: 01-10-2025</p>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+                <p>
+                    Pikachu es un Pokémon de tipo eléctrico, muy conocido como la mascota oficial de la saga Pokémon. 
+                    <strong>Su habilidad especial</strong> es liberar potentes descargas eléctricas. 
+                    Vive en bosques y siempre acompaña a su entrenador con lealtad.
+                </p>
+                <p class="comentarios">Comentarios (0)</p>
+            </article>
+        </section>
 
-            <h1>Bienvenido a Pokémonium </h1>
-            <h2>Subtítulo del segundo artículo</h2>
-            <!--definimos la fehchas de publicación-->
-            </hgroup>
-            <time datetime="09-09-2019">Publicado: 09-09-2019 </time>
-            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                <small>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia
-                    <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</ consequat. Duis
-                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum. </P>
-                        <img src="img/robot.jpg" alt="Imagen" />
-                        <footer>
-                            <p> comentarios (0) </p>
-                        </footer>
-                        <address>
-                            <a href="http://intergrupo.com">Visita Intergrupo</a>
-                        </address>
-        </article>
-        <article>
-            <hgroup>
-                <h1>Título del segundo artículo</h1>
-                <h2>Subtítulo del segundo artículo</h2>
-            </hgroup>
-            <!--definimos la fehchas de publicación-->
-            <time datetime="09-09-2019">Publicado: 09-09-2019 </time>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
-            <footer>
-                <p>Comentarios (10)</p>
-            </footer>
-
-        </article>
-    </section>
-    <aside>
-        <blockquote>
-            mensaje 1
-        </blockquote cite:"www.intergrupo.com">
-
-        <blockquote cite:"www.pmi.org">
-            mensaje 2
-        </blockquote>
-
-    </aside>
-    <footer>
-        Derechos reservados y copia;&copy; 2017-2020
-    </footer>
-
+        <!-- Barra lateral -->
+        <aside class="sidebar">
+            <div class="mensaje">Dato curioso: Pikachu fue diseñado por Ken Sugimori.</div>
+            <div class="mensaje">Pokémon viene de "Pocket Monsters" (monstruos de bolsillo).</div>
+        </aside>
+    </main>
 </body>
+</html>
